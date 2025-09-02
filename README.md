@@ -36,14 +36,7 @@
 - Docker
 - GitHub Actions
 
-## 📸 Screenshots
-
-![Dashboard Preview](screenshots/dashboard.png)  
-*Dashboard Overview*
-
-![Document Editor](screenshots/editor.png)  
-*Document Editor*
-
+ 
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -164,5 +157,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 <div align="center">
-  Made with ❤️ by [Your Name]
+  Made with ❤️ by Jakku Harshavardhan
 </div>
