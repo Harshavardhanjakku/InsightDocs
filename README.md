@@ -1,9 +1,9 @@
 # 📚 InsightDocs
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![GitHub stars](https://img.shields.io/github/stars/yourusername/insightdocs?style=social)](https://github.com/yourusername/insightdocs/stargazers)
-[![GitHub issues](https://img.shields.io/github/issues/yourusername/insightdocs)](https://github.com/yourusername/insightdocs/issues)
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/yourusername/insightdocs)](https://github.com/yourusername/insightdocs/pulls)
+[![GitHub stars](https://img.shields.io/github/stars/Harshavardhanjakku/InsightDocs?style=social)](https://github.com/Harshavardhanjakku/InsightDocs/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/Harshavardhanjakku/InsightDocs)](https://github.com/Harshavardhanjakku/InsightDocs/issues)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/Harshavardhanjakku/InsightDocs)](https://github.com/Harshavardhanjakku/InsightDocs/pulls)
 
 > A modern documentation platform with intelligent search and collaboration features
 
@@ -58,8 +58,8 @@
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/insightdocs.git
-   cd insightdocs
+   git clone https://github.com/Harshavardhanjakku/InsightDocs.git
+   cd InsightDocs
    ```
 
 2. **Set up environment variables**
