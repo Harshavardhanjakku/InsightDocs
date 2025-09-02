@@ -1,0 +1,110 @@
+/* Quill Editor Styles */
+.ql-editor {
+  min-height: 300px;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #171717 !important; /* Explicit dark text color for cross-browser compatibility */
+}
+
+/* Ensure text color is consistent across browsers */
+.ql-editor p,
+.ql-editor div,
+.ql-editor span,
+.ql-editor h1,
+.ql-editor h2,
+.ql-editor h3,
+.ql-editor h4,
+.ql-editor h5,
+.ql-editor h6,
+.ql-editor li,
+.ql-editor blockquote {
+  color: #171717 !important;
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  .ql-editor {
+    color: #ededed !important;
+  }
+  
+  .ql-editor p,
+  .ql-editor div,
+  .ql-editor span,
+  .ql-editor h1,
+  .ql-editor h2,
+  .ql-editor h3,
+  .ql-editor h4,
+  .ql-editor h5,
+  .ql-editor h6,
+  .ql-editor li,
+  .ql-editor blockquote {
+    color: #ededed !important;
+  }
+}
+
+.ql-toolbar {
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  background: #f8f9fa;
+  color: #171717 !important; /* Ensure toolbar text is visible */
+}
+
+.ql-container {
+  border-bottom: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  background: #ffffff; /* Ensure white background for better contrast */
+}
+
+/* Ensure all Quill elements have proper text color */
+.ql-editor.ql-blank::before {
+  color: #999 !important; /* Placeholder text color */
+}
+
+/* Force text rendering for better cross-browser compatibility */
+.ql-editor {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+/* Additional browser-specific fixes */
+.ql-editor * {
+  color: inherit;
+}
+
+/* Chrome-specific text color fix */
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  .ql-editor {
+    color: #171717 !important;
+  }
+}
+
+ 
+.ql-cursor {
+  position: absolute;
+  pointer-events: none;
+  z-index: 1000;
+}
+
+.ql-cursor__caret {
+  position: absolute;
+  width: 2px;
+  height: 1.2em;
+  background-color: currentColor;
+  border-radius: 1px;
+}
+
+.ql-cursor__label {
+  position: absolute;
+  top: -1.4em;
+  left: -1px;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  color: white;
+  padding: 2px 4px;
+  border-radius: 3px;
+  white-space: nowrap;
+}
